@@ -500,10 +500,27 @@ button.brand-btn {
 ul.slick-dots {
   margin-top: 3em;
 }
+
+.slick-dots li button:before {
+  font-size: 20px !important;
+}
+
 .slick-prev:before,
 .slick-next:before {
+  font-size: 0 !important;
+  color: transparent !important;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 30px !important;
   color: #131216 !important;
 }
+// .slick-prev,
+// .slick-next {
+//   font-size: 20px;
+//   color: #131216 !important;
+// }
 
 .slick-current {
   background: url("https://storage.googleapis.com/happie-public.pagebuilder.me/ceae01055644ba5142369288cd7f65d2.svg");

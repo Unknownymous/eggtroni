@@ -523,8 +523,19 @@ ul.slick-dots {
   margin-top: 3em;
 }
 
+.slick-dots li button:before {
+  font-size: 20px !important;
+}
+
 .slick-prev:before,
 .slick-next:before {
+  font-size: 0 !important;
+  color: transparent !important;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 30px !important;
   color: #131216 !important;
 }
 
